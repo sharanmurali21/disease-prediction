@@ -3,7 +3,7 @@ import numpy as np
 import joblib
 
 # Load the trained model
-model = joblib.load(r"C:\Users\jaiak\Downloads\disease.pkl")
+model = joblib.load("./models/disease.pkl")
 
 # Streamlit UI
 st.title("Disease Prediction App")
